@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../img/logo2.JPG" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/logo.jpeg">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../style.css" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>Formulario – Taurus gimnasio</title>
+</head>
+
+<body>
+
+   <!-- NAVBAR -->
+<div id="navbar-placeholder"></div>
+
+  <!-- CONTENEDOR DEL FORMULARIO -->
+  <div class="container mt-5 pt-5">
+
+    <h2 class="text-center mb-4 text-white">Formulario de datos personales</h2>
+
+    <form action="https://formsubmit.co/sofia99willems@gmail.com" method="POST">
+      
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_subject" value="Nuevo mensaje desde la web">
+
+
+      <!-- Nombre -->
+      <div class="mb-3">
+        <label for="nombre" class="form-label text-white">Nombre y apellido</label>
+        <input type="text" class="form-control" id="nombre" name="name" placeholder="Ingrese su nombre" required>
+      </div>
+
+      <!-- Email -->
+      <div class="mb-3">
+        <label for="email" class="form-label text-white">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su email" required>
+      </div>
+
+      <!-- Teléfono -->
+      <div class="mb-3">
+        <label class="form-label text-white">Número de teléfono</label>
+        <input type="text" class="form-control" placeholder="Ingrese su número" required>
+      </div>
+
+      <!-- Edad -->
+      <div class="mb-3">
+        <label class="form-label text-white">Edad</label>
+        <input type="text" class="form-control" placeholder="Ingrese su edad" required>
+      </div>
+
+      <!-- Experiencia previa -->
+      <div class="mb-3">
+        <label class="form-label text-white">¿Ha realizado actividad física?</label>
+        <input type="text" class="form-control" placeholder="¿Qué específicamente?" required>
+      </div>
+
+      <!-- Horarios -->
+      <div class="mb-3">
+        <label class="form-label text-white">Horario y días disponibles</label>
+        <input type="text" class="form-control" placeholder="Especifique..." required>
+      </div>
+
+      <!-- Salud -->
+      <div class="mb-3">
+        <label class="form-label text-white">¿Problemas de salud o lesiones?</label>
+        <input type="text" class="form-control" placeholder="Especifique..." required>
+      </div>
+
+      <!-- Consulta -->
+      <div class="mb-3">
+        <label for="consulta" class="form-label text-white">Consulta</label>
+        <textarea class="form-control" id="consulta" rows="4" name="consulta" placeholder="Escriba su consulta aquí..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-light">Enviar</button>
+
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500">
+      <input type="hidden" name="_captcha" value="false">
+
+    </form>
+
+  </div> <!-- cierre container -->
+<!--Whatsapp-->
+<div id="whatsapp-placeholder"></div>
+  <!-- Footer -->
+  <footer id="footer" class="bg-dark text-white text-center py-4 mt-5">
+    <div>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com/taurusgimnasio" class="text-white" target="_blank">
+            <i class="bi bi-instagram fs-2"></i>
+          </a>
+        </li>
+
+        <li class="list-inline-item">
+          <a href="#" class="text-white">
+            <i class="bi bi-facebook fs-2"></i>
+          </a>
+        </li>
+
+        <li class="list-inline-item">
+          <a href="mailto:sofia99willems@gmail.com" class="text-white">
+            <i class="bi bi-envelope fs-2"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>&copy; 2025 SOFIA BELÉN WILLEMS. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/logo2.JPG" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.jpeg">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../style.css" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>Entrenamiento Personalizado</title>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #212529;">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="../img/logo.jpeg" alt="Logo" width="40" height="40" class="me-2">
+      </a>
+
+      <p class="p mb-0">TAURUS GIM</p>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="./formulario/formulario.html">Formulario</a></li>
+          <li class="nav-item"><a class="nav-link" href="./programas/programas.html">Programas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Información</a></li>
+          <li class="nav-item"><a class="nav-link" href="#footer">Contactos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- TARJETAS - TODAS DENTRO DE UNA SOLA FILA -->
+    <div class="row mt-5">
+      <div class="row mt-5 align-items-start"
+
+      <!-- Tarjeta 1 -->
+      <div class="col-12 col-md-6 mb-4 d-flex justify-content-center">
+        <div class="card text-bg-dark tarjeta-interactiva">
+      
+          <img src="./img/gimnasio.jpeg" class="card-img-top" alt="">
+      
+          <div class="card-body text-center">
+            <h2 class="card-title">Sofia willems</h2>
+            <p class="card-text">Coordinadora e Instructora</p>
+      
+            <!-- BOTÓN DESPLEGAR -->
+            <button
+              class="btn btn-outline-light btn-sm mt-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#infoPotencia"
+              aria-expanded="false"
+              aria-controls="infoPotencia">
+              Ver más
+            </button>
+            <!-- CONTENIDO OCULTO -->
+            <div class="collapse mt-3" id="infoPotencia">
+              <p class="small">
+                Especializada en el entrenmiento para la mujer,
+                levantamiento olimpico, entrenamiento de la fuerza y la potencia
+              </p>
+      
+              <ul class="list-unstyled small">
+                <li>✔ Evaluación inicial</li>
+                <li>✔ Evaluación inicial</li>
+                <li>✔ Seguimiento continuo</li>
+              </ul>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+
+     <!-- Tarjeta 2 -->
+<div class="col-12 col-md-6 mb-4 d-flex justify-content-center">
+  <div class="card text-bg-dark tarjeta-interactiva">
+
+    <img src="./img/img.entren.jpeg" class="card-img-top" alt="">
+
+    <div class="card-body text-center">
+      <h2 class="card-title">Juan Vallejos</h2>
+      <p class="card-text">Profesor de educacion fisica</p>
+
+      <!-- BOTÓN DESPLEGAR -->
+      <button
+        class="btn btn-outline-light btn-sm mt-2"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#infoFuerza"
+        aria-expanded="false"
+        aria-controls="infoFuerza">
+        Ver más
+      </button>
+
+      <!-- CONTENIDO OCULTO -->
+      <div class="collapse mt-3" id="infoFuerza">
+        <p class="small">
+          Nos aseguramos de que cada persona tenga un entrenamiento de calidad,
+          con una planificacion guiada y adaptada.
+        </p>
+
+        <ul class="list-unstyled small">
+          <li>✔ Ejercicios seguros</li>
+          <li>✔ Progresión controlada</li>
+          <li>✔ Mejora de calidad de vida</li>
+        </ul>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--Whatsapp-->
+<div id="whatsapp-placeholder"></div>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="bg-dark text-white text-center py-4 mt-5">
+        <div>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/taurusgimnasio?igsh=NG1qOWY1bHNjZG54" target="_blank" class="text-white">
+                <i class="bi bi-instagram fs-2"></i>
+              </a>
+            </li>
+    
+            <li class="list-inline-item">
+              <a href="#" class="text-white">
+                <i class="bi bi-facebook fs-2"></i>
+              </a>
+            </li>
+    
+            <li class="list-inline-item">
+              <a href="mailto:sofia99willems@gmail.com" class="text-white">
+                <i class="bi bi-envelope fs-2"></i>
+              </a>
+            </li>
+          </ul>
+    
+          <p class="name">&copy; 2025 SOFIA WILLEMS. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+    
+      <script src="../index.js"></script>
+    
+    </body>
+    </html>
+    
